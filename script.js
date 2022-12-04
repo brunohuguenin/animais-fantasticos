@@ -54,9 +54,30 @@ imgs.forEach(function(item, index, array){ //pode ser qualquer nome pois é uma 
     console.log(item, index, array)
 })*/
 
-const titulos = document.getElementsByClassName('titulo');
+/*const titulos = document.getElementsByClassName('titulo');
 const titulosArray = Array.from(titulos);
 
 titulosArray.forEach(function(item) {
     console.log(item)
-});
+});*/
+
+/*const imgs = document.querySelectorAll('img');
+
+imgs.forEach((item, index) => {
+    console.log(item);
+});*/
+
+// 1º
+const paragrafos = document.querySelectorAll('p');
+console.log(paragrafos)
+
+paragrafos.forEach((item) => {
+    console.log(item)
+})
+
+// 2º
+paragrafos.forEach((item) => {
+    console.log(item.innerText)
+})
+
+// 3º
