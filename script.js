@@ -47,9 +47,16 @@ console.log(subTitulo)
 const paragrafos = document.querySelectorAll('p')
 console.log(paragrafos[paragrafos.length - 1])*/
 
-const imgs = document.querySelectorAll('img');
+/*const imgs = document.querySelectorAll('img');
 
 let i = 0;
 imgs.forEach(function(item, index, array){ //pode ser qualquer nome pois é uma var
     console.log(item, index, array)
-})
+})*/
+
+const titulos = document.getElementsByClassName('titulo');
+const titulosArray = Array.from(titulos);
+
+titulosArray.forEach(function(item) {
+    console.log(item)
+});
