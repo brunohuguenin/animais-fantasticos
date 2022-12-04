@@ -21,7 +21,7 @@ console.log(gridSectionHTML)
 console.log(gridSectionNode)*/
 
 
-
+/*
 // Retorne no sonsole todas as imagens do site
 
 const img = document.querySelectorAll('img');
@@ -45,4 +45,11 @@ console.log(subTitulo)
 // Selecione o último p do site
 
 const paragrafos = document.querySelectorAll('p')
-console.log(paragrafos[paragrafos.length - 1])
+console.log(paragrafos[paragrafos.length - 1])*/
+
+const imgs = document.querySelectorAll('img');
+
+let i = 0;
+imgs.forEach(function(item, index, array){ //pode ser qualquer nome pois é uma var
+    console.log(item, index, array)
+})
