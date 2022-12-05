@@ -1,4 +1,4 @@
-/*const animais = document.getElementById('animais')
+const animais = document.getElementById('animais')
 console.log(animais.innerText)
 
 const gridSection = document.getElementsByClassName('grid-section')
@@ -18,7 +18,7 @@ const gridSectionHTML = document.getElementsByClassName('grid-section')
 const gridSectionNode = document.querySelectorAll('.grid-section')
 
 console.log(gridSectionHTML)
-console.log(gridSectionNode)*/
+console.log(gridSectionNode)
 
 
 /*
